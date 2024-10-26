@@ -1,0 +1,3 @@
+# crontab
+# Use environment variable to set interval (default to every 5 minutes)
+*/5 * * * * root python /app/process_subtitles.py /app/directory /app/remove_lines.txt /app/processed_files.log
